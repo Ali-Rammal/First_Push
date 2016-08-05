@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" href="./Project_2.css">
+<script src="./bundle.js"></script>
+	<head>
+		<title>Project_2_2</title>
+	</head>
+	<body>
+	
+	<p>Please enter two numbers and choose operand to calculate result</p>
+		<div>
+		<input id="input_4" type="number" class ="input">
+		<select id="select_calculate" class="select">
+			<option value="+">+</option>
+			<option value="-">-</option>
+			<option value="*">*</option>
+			<option value="/">/</option>
+		</select>
+		<input id="input_5" type="number">
+		<span>=</span>
+		<input id="input_6" type="number">
+		<button id="button_submit_calculate" class = "button" type="button"  onclick="calculate()">Calculate!</button>
+		<button id="button_reset_calculate" class = "button_reset" type="button"  onclick="reset_calculate()">Reset</button>
+		</div>
+
+	</body>
+</html>
